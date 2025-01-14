@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Enlaces con Atributos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #636372;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #c93a60;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: rgb(126, 124, 124);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #ca4f25;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    a {
+      display: inline-block;
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+      margin-bottom: 15px;
+      padding: 10px 15px;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #0056b3;
+      color: rgb(158, 142, 142);
+      border-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #aaaab9;
+      font-size: 14px;
+      margin-top: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ejemplo de Enlaces con Atributos</h1>
+  </header>
+
+  <main>
+    <p>A continuación, se muestran ejemplos de enlaces con diferentes atributos:</p>
+
+    <!-- href -->
+    <h2>Atributo href</h2>
+    <p>
+      El atributo href define el destino del enlace. En este caso, dirige a una pagina sobre la cultura del antiguo egipto.
+    </p>
+    <a href="https://www.worldhistory.org/trans/es/1-10649/cultura-del-antiguo-egipto/">Cultura Egipcia</a>
+
+    <!-- download -->
+    <h2>Atributo download</h2>
+    <p>
+      Indica que el enlace es para descargar un archivo. Aquí descarga un archivo PDF sobre reglas del ajedrez.
+    </p>
+    <a href="ReglasAjedrez.pdf" download="ReglasAjedrez.pdf">Reglas Ajedrez</a>
+
+    <!-- hreflang -->
+    <h2>Atributo hreflang</h2>
+    <p>
+      El atributo hreflang indica el idioma del contenido al que enlaza. En este caso, dirige a una página en inglés.
+    </p>
+    <a href="https://www.sonicthehedgehog.com/" hreflang="en">Abrir Pagina en inglés</a>
+
+    <!-- rel -->
+    <h2>Atributo rel</h2>
+    <p>
+      Define la relación entre el documento actual y el recurso vinculado. Este enlace utiliza <code>rel="nofollow"</code>.
+    </p>
+    <a href="https://mx.pinterest.com/" rel="nofollow">Enlace Pinterest</a>
+
+    <!-- target -->
+    <h2>Atributo target</h2>
+    <p>
+      Especifica dónde se abrirá el documento vinculado. Aquí se abre en una nueva pestaña (<code>_blank</code>).
+    </p>
+    <a href="https://www.youtube.com/watch?v=ZbZSe6N_BXs" target="_blank">Abrir video en una nueva pestaña</a>
+
+    <!-- type -->
+    <h2>Atributo type</h2>
+    <p>
+      Especifica el tipo de medio del recurso vinculado. Aquí se define como un archivo de imagen PNG.
+    </p>
+    <a href="imagen.png.jpg" type="image/png">Descargar imagen PNG</a>
+  </main>
+
+  <footer>
+    <p>Ejemplos realizados para comprender el uso de atributos en enlaces.</p>
+  </footer>
+</body>
+</html>
